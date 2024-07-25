@@ -31,7 +31,8 @@ Monitoring is a critical aspect of maintaining the health and performance of any
 
 During the installation, you will be prompted to configure various settings such as domain name, admin email, and password. Ensure you configure these settings correctly, as they are crucial for the server's operation. The installation process includes downloading and installing various Zimbra components such as LDAP, mailbox, MTA, SNMP, and logger.
 
-[](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.001.png)
+![image](https://github.com/user-attachments/assets/2b66b72b-6ee7-45d3-aae7-d4a2b94bf652)
+
 
 
 **Step 2 :** Installing Grafana
