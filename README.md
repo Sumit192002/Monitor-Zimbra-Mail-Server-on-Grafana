@@ -34,7 +34,6 @@ During the installation, you will be prompted to configure various settings such
 ![image](https://github.com/user-attachments/assets/2b66b72b-6ee7-45d3-aae7-d4a2b94bf652)
 
 
-
 **Step 2 :** Installing Grafana
 
 Refer Official document to install grafana
@@ -44,11 +43,10 @@ Refer Official document to install grafana
 
 After installing Grafana, open a web browser and navigate to http://<your-server-ip>:3000. The default login credentials are admin for both username and password. Upon logging in, you will be prompted to change the password. Grafana's web interface allows you to configure data sources, create dashboards, and set up alerts.
 
-![](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.002.png)
+![image](https://github.com/user-attachments/assets/a31a8fef-2e3c-4dbf-94d0-e8bb55b55055)
 
 
-
-**Step 4:** Installing Zimbra Exporter
+**Step 3:** Installing Zimbra Exporter
 
 To export Zimbra metrics to Prometheus, we need to install the Zimbra Exporter. The following steps outline the installation process:
 
@@ -78,8 +76,7 @@ Start and enable the Zimbra Exporter service:
 |sudo systemctl daemon-reload<br>sudo systemctl start zimbra\_exporter<br>sudo systemctl enable zimbra\_exporter|
 | :- |
 
-![](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.003.png)
-
+![image](https://github.com/user-attachments/assets/402caa17-d60a-4b0d-a24f-b88abed85db6)
 We can see it will get the matrics to port 9093 
 
 
@@ -98,10 +95,7 @@ Prometheus requires a configuration file to specify the metrics endpoints it wil
 
 After Restarting prometheus we can see the changes
 
-![](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.004.png)
-
-
-
+![image](https://github.com/user-attachments/assets/1c795683-9b92-476f-9480-5611e8922682)
 
 **Step 5:** Configuring Grafana to Visualize Zimbra Metrics
 
@@ -115,7 +109,7 @@ Now that all the components are installed and running, we can configure Grafana 
 1. Use Prometheus queries to fetch Zimbra metrics. 
 1. Customize the dashboard to display various Zimbra metrics such as CPU usage, memory usage, and email delivery statistics.
 
-![](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.005.png)
+![image](https://github.com/user-attachments/assets/8da53ce9-513f-42b2-82d9-e3aa06138f9a)
 
 **Summary and Conclusion:** 
 
