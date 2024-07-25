@@ -2,7 +2,7 @@
 
 **Introduction :** 
 
-`	`Monitoring is a critical aspect of maintaining the health and performance of any software infrastructure. Grafana is a powerful open-source platform for monitoring and observability. When integrated with Prometheus, a leading open-source monitoring solution, Grafana provides robust and insightful metrics visualization. This report focuses on monitoring a Zimbra Mail Server using Grafana and Prometheus. Zimbra is an open-source email server software that provides a complete email, calendar, and collaboration suite. Monitoring Zimbra with Grafana helps administrators keep track of the server's performance, identify potential issues, and ensure the reliability of the email services.
+Monitoring is a critical aspect of maintaining the health and performance of any software infrastructure. Grafana is a powerful open-source platform for monitoring and observability. When integrated with Prometheus, a leading open-source monitoring solution, Grafana provides robust and insightful metrics visualization. This report focuses on monitoring a Zimbra Mail Server using Grafana and Prometheus. Zimbra is an open-source email server software that provides a complete email, calendar, and collaboration suite. Monitoring Zimbra with Grafana helps administrators keep track of the server's performance, identify potential issues, and ensure the reliability of the email services.
 
 **Key Concepts:**
 
@@ -31,7 +31,7 @@
 
 During the installation, you will be prompted to configure various settings such as domain name, admin email, and password. Ensure you configure these settings correctly, as they are crucial for the server's operation. The installation process includes downloading and installing various Zimbra components such as LDAP, mailbox, MTA, SNMP, and logger.
 
-![](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.001.png)
+[](Aspose.Words.58b73523-0ea1-4f31-a3e2-b57ab5094a17.001.png)
 
 
 **Step 2 :** Installing Grafana
